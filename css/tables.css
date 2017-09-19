@@ -52,14 +52,6 @@ td, th { border: 1px solid #cdcdcd; padding: 8px;}
         @media only screen
         and (min-device-width : 320px)
         and (max-device-width : 960px) {
-                body { 
-                        padding: 0; 
-                        margin: 0; 
-                        width: 320px; }
-                }
 /* Section eight*/
-        @media only screen and (min-device-width: 1921px) and (max-device-width: 5000px) {
-                body { 
-                        width: 495px; 
-                }
+        @media only screen and (min-device-width: 760px) and (max-device-width: 1920px) {
         }
