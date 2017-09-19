@@ -7,7 +7,7 @@ table {
         font: normal 12px arial; 
         width: 140%;
 }
-td, th { border: 1px solid #cdcdcd; padding: 2px;}
+td, th { border: 1px solid #cdcdcd; padding: 8px;}
 
 /* Section two*/
 
@@ -43,29 +43,22 @@ td, th { border: 1px solid #cdcdcd; padding: 2px;}
                 }
                 /* Section six*/
 
-                td:nth-of-type(1):before { content: "First Name"; }
-                td:nth-of-type(2):before { content: "Last Name"; }
-                td:nth-of-type(3):before { content: "Job Title"; }
-                td:nth-of-type(4):before { content: "Joining Date"; }
-                td:nth-of-type(5):before { content: "Total Experience"; }
-                td:nth-of-type(6):before { content: "Relevant Experience"; }
-                td:nth-of-type(7):before { content: "Date of Birth"; }
-                td:nth-of-type(8):before { content: "Current City"; }
-                td:nth-of-type(9):before { content: "Prefered City"; }
-                td:nth-of-type(10):before { content: "Nationality"; }
+                td:nth-of-type(1):before { content: "Version"; }
+                td:nth-of-type(2):before { content: "Release date"; }
+                td:nth-of-type(3):before { content: "Changes made"; }
 }
 
 /* Section seven*/
         @media only screen
         and (min-device-width : 320px)
-        and (max-device-width : 480px) {
+        and (max-device-width : 960px) {
                 body { 
                         padding: 0; 
                         margin: 0; 
                         width: 320px; }
                 }
 /* Section eight*/
-        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        @media only screen and (min-device-width: 1px) and (max-device-width: 10px) {
                 body { 
                         width: 495px; 
                 }
