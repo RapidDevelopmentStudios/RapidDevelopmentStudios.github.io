@@ -58,7 +58,7 @@ td, th { border: 1px solid #cdcdcd; padding: 8px;}
                         width: 320px; }
                 }
 /* Section eight*/
-        @media only screen and (min-device-width: 1px) and (max-device-width: 10px) {
+        @media only screen and (min-device-width: 1921px) and (max-device-width: 5000px) {
                 body { 
                         width: 495px; 
                 }
